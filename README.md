@@ -2,12 +2,17 @@
 
 RemindMeLater is a web application that allows users to set up reminders with messages, which can be delivered via various methods (initially SMS and Email). This repository contains both the backend API built with Django and a frontend client built with React.
 
+![screencapture-localhost-5173-2025-05-22-00_18_12](https://github.com/user-attachments/assets/80b3bb9f-b1b1-4593-a4b8-f388b345904b)
+
 ## Project Overview
 
 The application consists of two main parts:
 
 *   **Backend (`/backend`):** A RESTful API built with Django and Django REST Framework. It handles user authentication, reminder creation, storage, and provides endpoints for the frontend to interact with.
 *   **Frontend (`/frontend`):** A single-page application (SPA) built with React (using Vite). It provides the user interface for logging in, setting reminders, and viewing existing reminders.
+
+## Demo:
+[screen-capture (5).webm](https://github.com/user-attachments/assets/f4f87e62-2085-433e-94d6-1ecb9794e189)
 
 ## Features (Implemented & Planned)
 
