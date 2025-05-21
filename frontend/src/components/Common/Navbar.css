@@ -1,0 +1,75 @@
+/* src/components/Common/Navbar.css */
+.navbar-header {
+  background-color: var(--primary-color);
+  padding: 0.75rem 1rem;
+  color: var(--light-text-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--light-text-color);
+  text-decoration: none;
+}
+
+.navbar-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links li {
+  margin-left: 1rem;
+}
+
+.nav-link, .nav-button {
+  color: var(--light-text-color);
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--border-radius);
+  transition: background-color 0.2s ease-in-out;
+  font-size: 1rem;
+}
+.nav-link:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.nav-button {
+  background-color: transparent;
+  border: 1px solid var(--light-text-color); /* Or a different color for contrast */
+  cursor: pointer;
+}
+.nav-button.btn-primary { /* For login button */
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+.nav-button.btn-primary:hover {
+    background-color: var(--secondary-hover-color);
+    border-color: var(--secondary-hover-color);
+}
+
+.nav-button.btn-danger { /* For logout button */
+    background-color: var(--danger-color);
+    border-color: var(--danger-color);
+}
+.nav-button.btn-danger:hover {
+    background-color: var(--danger-hover-color);
+    border-color: var(--danger-hover-color);
+}
+
+
+.navbar-user {
+    margin-right: 1rem;
+    font-style: italic;
+}

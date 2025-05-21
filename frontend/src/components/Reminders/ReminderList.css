@@ -1,0 +1,15 @@
+/* src/components/Reminders/ReminderList.css */
+.reminders-list-container {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+.empty-list-message {
+  text-align: center;
+  padding: 2rem;
+  color: #777;
+  background-color: var(--light-bg-color);
+  border: 1px dashed var(--border-color);
+  border-radius: var(--border-radius);
+}

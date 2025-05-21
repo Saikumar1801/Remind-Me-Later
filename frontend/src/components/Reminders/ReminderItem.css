@@ -1,0 +1,78 @@
+/* src/components/Reminders/ReminderItem.css */
+.reminder-item-card {
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+  border-left-width: 5px; /* For status indication */
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to top for multi-line content */
+  box-shadow: var(--box-shadow);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.reminder-item-card:hover {
+  box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.1);
+}
+
+.reminder-item-card.pending {
+  border-left-color: var(--primary-color);
+}
+
+.reminder-item-card.sent {
+  border-left-color: var(--secondary-color);
+  opacity: 0.8; /* Slightly faded for sent items */
+}
+
+.reminder-content h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: var(--dark-text-color);
+  font-size: 1.1rem;
+}
+
+.reminder-meta {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 0.25rem;
+}
+
+.reminder-status {
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+.status-pending { color: var(--primary-color); }
+.status-sent { color: var(--secondary-color); }
+
+
+.reminder-actions {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically on small screens if needed */
+  gap: 0.5rem; /* Space between buttons */
+  margin-left: 1rem; /* Space between content and actions */
+  flex-shrink: 0; /* Prevent actions from shrinking */
+}
+
+.reminder-actions .btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+
+/* Adjust layout for smaller screens if necessary */
+@media (max-width: 600px) {
+  .reminder-item-card {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .reminder-actions {
+    margin-left: 0;
+    margin-top: 0.75rem;
+    flex-direction: row; /* Buttons side-by-side on small screens */
+    justify-content: flex-end;
+  }
+}

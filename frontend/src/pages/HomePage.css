@@ -1,0 +1,66 @@
+/* src/pages/HomePage.css */
+.homepage-container {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.homepage-header {
+  margin-bottom: 2.5rem;
+}
+
+.homepage-header h1 {
+  font-size: 2.8rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.homepage-subtitle {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.homepage-cta {
+  margin-bottom: 3rem;
+}
+
+.homepage-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-lg {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+}
+
+.homepage-features {
+  background-color: var(--light-bg-color);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.homepage-features h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: var(--dark-text-color);
+}
+
+.homepage-features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.homepage-features li {
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.homepage-features li::before {
+  content: '✓'; /* Checkmark or other icon */
+  color: var(--secondary-color);
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
