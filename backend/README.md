@@ -19,7 +19,7 @@ This directory contains the Django backend for the RemindMeLater application. It
 
 1.  **Navigate to the backend directory:**
     ```bash
-    cd path/to/RemindMeLaterFullStack/backend
+    cd path/to/Remind-Me-Later/backend
     ```
 
 2.  **Create and activate a virtual environment:**
