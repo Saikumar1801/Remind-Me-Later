@@ -59,30 +59,28 @@ The application consists of two main parts:
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd RemindMeLaterFullStack
+git clone https://github.com/Saikumar1801/Remind-Me-Later.git
+cd Remind-Me-Later
 ```
 
 ### 2. Setup Backend
 Navigate to the backend directory and follow the instructions in backend/README.md.
 ```bash
 cd backend
-# python -m venv venv
-# source venv/bin/activate  # or venv\Scripts\activate on Windows
-# pip install -r requirements.txt
-# python manage.py migrate
-# python manage.py createsuperuser (optional, for admin access)
-# python manage.py runserver
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py createsuperuser (optional, for admin access)
+python manage.py runserver
 ```
 
 ### 3. Setup Frontend
 Navigate to the frontend directory in a new terminal and follow the instructions in frontend/README.md.
 ```bash
 cd frontend
-# (Follow frontend README instructions)
-# Typically:
-# npm install
-# npm run dev
+npm install
+npm run dev
 ```
 
 ### 4. Accessing the Application
