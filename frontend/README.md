@@ -24,7 +24,7 @@ Vercel: https://remind-me-later-chi.vercel.app/
 
 1.  **Navigate to the frontend directory:**
     ```bash
-    cd path/to/RemindMeLaterFullStack/frontend
+    cd path/to/Remind-Me-Later/frontend
     ```
 
 2.  **Install dependencies:**
